@@ -1,0 +1,75 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    background-color: #f2f2f2; /* Color de fondo */
+    display: flex; /* Mostrar los elementos en formato de fila */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Altura del cuerpo igual al 100% del viewport */
+    margin: 0; /* Eliminar margen exterior */
+  }
+  
+  /* Estilos para el contenedor de la calculadora */
+  .calculator {
+    background-color: #fff; /* Color de fondo del contenedor */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
+  /* Estilos para el título de la calculadora */
+  h1 {
+    text-align: center; /* Alinear el texto al centro */
+    margin-bottom: 20px; /* Margen inferior */
+    color: #2260a4; /* Color del texto */
+  }
+  
+  /* Estilos para el display */
+  .display {
+    width: 100%; /* Ancho al 100% */
+    display: flex; /* Mostrar los elementos en formato de fila */
+    justify-content: flex-end; /* Alinear el contenido al final del display */
+    margin-bottom: 20px; /* Margen inferior */
+    background-color: #222; /* Color de fondo del display */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); /* Sombra */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 5px; /* Espaciado interno */
+  }
+  
+  /* Estilos para el input del display */
+  #display {
+    font-size: 24px; /* Tamaño de la fuente */
+    color: #fff; /* Color del texto */
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    width: 100%; /* Ancho al 100% */
+    text-align: right; /* Alinear el texto a la derecha */
+    outline: none; /* Eliminar el borde al hacer foco */
+  }
+  
+  /* Estilos para los botones */
+  .buttons {
+    display: grid; /* Mostrar los botones en formato de cuadrícula */
+    grid-template-columns: repeat(4, 1fr); /* Cuatro columnas de igual tamaño */
+    gap: 10px; /* Espaciado entre los botones */
+  }
+  
+  /* Estilos para cada botón */
+  button {
+    font-size: 20px; /* Tamaño de la fuente */
+    padding: 15px; /* Espaciado interno */
+    background-color: #2260a4; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cursor al pasar por encima */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+  }
+  
+  /* Estilos al pasar el cursor por encima del botón */
+  button:hover {
+    background-color: #4a90e2; /* Cambio de color de fondo */
+    transform: scale(1.05); /* Efecto de escala al hacer hover */
+  }
+  
